@@ -1,8 +1,9 @@
-" Enable sintax highlight
+" Enable sintax highlight and colorscheme
 syntax          on
-
-" Set colorscheme
 colorscheme     slate
+
+" Specific syntax
+set             *.twig syntax=html
 
 " User 4 spaces for a tab
 set             softtabstop=4
