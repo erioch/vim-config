@@ -3,7 +3,7 @@ syntax          on
 colorscheme     slate
 
 " Specific syntax
-set             *.twig syntax=html
+au BufReadPost *.twig set syntax=html
 
 " User 4 spaces for a tab
 set             softtabstop=4
