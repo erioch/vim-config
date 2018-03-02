@@ -1,6 +1,6 @@
 " Enable sintax highlight and colorscheme
 syntax          on
-colorscheme     slate
+colorscheme     peachpuff
 
 " Specific syntax
 au BufReadPost *.twig set syntax=html
