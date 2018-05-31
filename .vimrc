@@ -5,7 +5,10 @@ colorscheme     peachpuff
 " Specific syntax
 au BufReadPost *.twig set syntax=html
 
-" User 4 spaces for a tab
+" UTF-8 encoding
+set             encoding=utf-8
+
+" Use 4 spaces for a tab
 set             softtabstop=4
 set             shiftwidth=4
 set             expandtab
